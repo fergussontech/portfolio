@@ -44,3 +44,9 @@ body{
     background-color: #d74a5d;
     font-size: 40px;
 }
+
+.message{
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+}
