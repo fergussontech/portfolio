@@ -9,12 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 100);
 
   setTimeout(function() {
-      one.style.opacity = 1;
+    one.style.opacity = 1;
   }, 1500);
 
   setTimeout(function() {
     three.style.opacity = 1;
   }, 1750);
+
+
 
 
   const canvas = document.getElementById('interactiveCanvas');
@@ -74,4 +76,5 @@ document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     update();
   }, 3000);
+
 });
