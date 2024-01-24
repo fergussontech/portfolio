@@ -15,66 +15,71 @@
   </head>
   <body>
     
-    <div class="video-container">
+    <!-- <div class="video-container">
       <video autoplay muted loop playsinline>
         <source src="img/background-video.mp4" type="video/mp4">
       </video>
-    </div>
+    </div> -->
 
     <main>
-      <section class="one">
+      <section class="one" id="one">
         <div class="hover-card">
-          <a href="/" class="warp">
+          <a href="about" class="warp">
             <h2>ABOUT</h2>
           </a>
         </div>
         <div class="hover-card">
-          <a href="/" class="warp">
-            <h2>LISTEN</h2>
+          <a href="resume" class="warp">
+            <h2>RESUME</h2>
           </a>
         </div>
         <div class="hover-card">
-          <a href="/" class="warp">
-            <h2>WATCH</h2>
+          <a href="portfolio" class="warp">
+            <h2>PORTFOLIO</h2>
           </a>
         </div>
         <div class="hover-card">
-          <a href="/" class="warp">
+          <a href="contact" class="warp">
             <h2>CONTACT</h2>
           </a>
         </div>
       </section>
 
       <section class="two">
-        <h1>SOFT SKIN</h1>
+        <div id="logo">
+          <h1 class="warp">TAYLOR FERGUSSON</h1>
+        </div>
       </section>
 
-      <section class="three">
+      <section class="three" id="three">
         <div class="hover-card">
-          <a href="/login" class="warp">
-            <h2>LOGIN</h2>
+          <a href="about" class="warp">
+            <h2>ABOUT</h2>
           </a>
         </div>
         <div class="hover-card">
-          <a href="/register" class="warp">
-            <h2>REGISTER</h2>
+          <a href="resume" class="warp">
+            <h2>RESUME</h2>
           </a>
         </div>
         <div class="hover-card">
-          <a href="" class="warp">
-            <h2>null</h2>
+          <a href="portfolio" class="warp">
+            <h2>PORTFOLIO</h2>
           </a>
         </div>
         <div class="hover-card">
-          <a href="" class="warp">
-            <h2>null</h2>
+          <a href="contact" class="warp">
+            <h2>CONTACT</h2>
           </a>
         </div>
       </section>
 
     </main>
 
+    <canvas id="interactiveCanvas"></canvas>
+
     <script src="js/hover.js"></script>
+    <script src="js/animation.js"></script>
 
   </body>
 </html>
